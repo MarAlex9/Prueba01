@@ -1,0 +1,31 @@
+{
+    "region": {
+        "nombre": {
+            "type": "text",
+            "description": "Nombre del objeto",
+            "default_value": ""
+        },
+        "tipo": {
+            "type": "dropdown",
+            "description": "Categoria de objeto",
+            "options": {
+                "humano": "Es una persona",
+                "patineta": "Es una patineta",
+                "raqueta": "Es una raqueta",
+                "objeto": "Desconocido"
+            },
+            "default_options": {}
+        },
+        "calidad_imagen": {
+            "type": "checkbox",
+            "description": "Region de la calidad de la imagen",
+            "options": {
+                "borrosa": "Mala calidad",
+                "buena": "Buena calidad",
+                "alta": "Alta calidad"
+            },
+            "default_options": {}
+        }
+    },
+    "file": {}
+}
